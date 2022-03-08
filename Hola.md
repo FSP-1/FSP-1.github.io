@@ -4,7 +4,7 @@ title:  "Hola"
 permalink: /hola/
 ---
 
-# Hola, Disfruta esto 
+# Buenos dias y bienvenido a mi pagina web, Disfruta esto 
 
 <style type="text/css" media="screen">
   .container {
@@ -21,8 +21,4 @@ permalink: /hola/
 </style>
 
 <div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
 </div>
