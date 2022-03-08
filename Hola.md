@@ -46,7 +46,7 @@ permalink: /hola/
   </div>
   </div>
 
-  ### Codigo utilizado para hacer lo de arriba (CSS Transición + Transformación)
+### Codigo utilizado para hacer lo de arriba (CSS Transición + Transformación)
 
   ```
 <style> 
@@ -88,5 +88,5 @@ permalink: /hola/
   </div>
   </div>
   </div>
-  
+
   ```
