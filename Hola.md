@@ -4,7 +4,7 @@ title:  "Hola"
 permalink: /hola/
 ---
 
-# Buenos dias y bienvenido a mi pagina web, Disfruta esto 
+### Buenos dias y bienvenido a mi pagina web, Disfruta esto 
 
 <style> 
 
