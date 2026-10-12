@@ -16,7 +16,7 @@ layout: null
   <body>
     <header class="site-header">
       <a class="brand" href="{{ '/' | relative_url }}" aria-label="Inicio"><span class="brand-mark">FSP</span><span>Franco Sergio Pereyra</span></a>
-      <nav aria-label="Navegación principal"><a href="#sobre-mi">Sobre mí</a><a href="#especialidades">Especialidades</a><a href="#trayectoria">Trayectoria</a><a class="nav-cta" href="#contacto">Hablemos <span>↗</span></a></nav>
+      <nav aria-label="Navegación principal"><a href="#sobre-mi">Sobre mí</a><a href="#especialidades">Especialidades</a><a href="#proyectos">Proyectos</a><a class="nav-cta" href="#contacto">Hablemos <span>↗</span></a></nav>
     </header>
     <main>
       <section class="hero section-shell">
@@ -40,11 +40,31 @@ layout: null
           <article class="skill-card"><span class="skill-number">03</span><h3>Cloud &<br>automatización</h3><p>Despliegue de servicios cloud, scripting y automatización para operaciones eficientes.</p><span class="skill-arrow">↗</span></article>
         </div>
       </section>
+      <section id="proyectos" class="projects section-shell">
+        <div class="section-heading"><p class="section-index">03 / PROYECTOS</p><h2>Proyectos técnicos</h2></div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-meta"><span>01</span><span>PROYECTO ASIR</span></div>
+            <div class="project-main"><h3>Automatización de infraestructura y despliegue web</h3><p>Automatización mediante Ansible de una infraestructura completa en AWS, incluyendo EC2, grupos de seguridad e IPs elásticas, junto con el despliegue de Docker, Apache, Nginx, MySQL y monitorización con Nagios y Netdata.</p><div class="tech-list"><span>Ansible</span><span>AWS EC2</span><span>Linux</span><span>Docker</span><span>Apache</span><span>Nginx</span><span>MySQL</span><span>Git</span></div></div>
+            <a class="project-link" href="https://github.com/FSP-1/Infraestructura_FSP.git" target="_blank" rel="noreferrer" aria-label="Ver proyecto de automatización en GitHub">Ver repositorio <span>↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta"><span>02</span><span>APLICACIÓN MÓVIL</span></div>
+            <div class="project-main"><h3>AlmeríaRuta</h3><p>Aplicación móvil de transporte urbano desarrollada con Flutter y Dart, con arquitectura MVVM, backend Python/Flask, APIs REST, datos GTFS, geolocalización y MySQL. Despliegue en Linux mediante Nginx, HTTPS y systemd.</p><div class="tech-list"><span>Flutter</span><span>Dart</span><span>Python</span><span>Flask</span><span>REST</span><span>MySQL</span><span>Linux</span><span>Nginx</span></div></div>
+            <a class="project-link" href="https://github.com/FSP-1/AlmeriaRuta.git" target="_blank" rel="noreferrer" aria-label="Ver AlmeríaRuta en GitHub">Ver repositorio <span>↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta"><span>03</span><span>TFG · INGENIERÍA INFORMÁTICA</span></div>
+            <div class="project-main"><h3>Plataforma de autodiagnóstico de vehículos</h3><p>Plataforma web desarrollada en equipo para el autodiagnóstico y mantenimiento de vehículos, con gestión de averías, piezas, estimación de costes y seguimiento del estado de las reparaciones.</p><div class="tech-list"><span>Java</span><span>Spring Boot</span><span>Angular</span><span>TypeScript</span><span>REST API</span><span>MySQL</span><span>Git</span></div></div>
+            <a class="project-link" href="https://github.com/ualfsp323/autodiagnostico26.git" target="_blank" rel="noreferrer" aria-label="Ver proyecto de autodiagnóstico en GitHub">Ver repositorio <span>↗</span></a>
+          </article>
+        </div>
+      </section>
       <section id="trayectoria" class="journey section-shell split-section">
-        <p class="section-index">03 / RECORRIDO</p>
+        <p class="section-index">04 / RECORRIDO</p>
         <div class="section-content"><h2>Aprender, resolver y seguir avanzando.</h2><div class="timeline"><div class="timeline-item"><span>FORMACIÓN</span><div><h3>Ingeniería Informática</h3><p>Universidad de Almería</p></div></div><div class="timeline-item"><span>FORMACIÓN</span><div><h3>Administración de Sistemas Informáticos en Red</h3><p>Formación profesional superior · ASIR</p></div></div><div class="timeline-item"><span>ENFOQUE</span><div><h3>Sistemas, infraestructura y operaciones</h3><p>Linux · Windows Server · Redes · Virtualización · NAS · Cloud</p></div></div></div></div>
       </section>
-      <section id="contacto" class="contact section-shell"><p class="section-index">04 / CONTACTO</p><div class="contact-content"><p class="eyebrow">¿Tenés un desafío en mente?</p><h2>Hagamos que<br><em>funcione.</em></h2><a class="contact-email" href="mailto:{{ site.email }}">{{ site.email }} <span>↗</span></a><div class="contact-links"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></section>
+      <section id="contacto" class="contact section-shell"><p class="section-index">05 / CONTACTO</p><div class="contact-content"><p class="eyebrow">¿Tenés un desafío en mente?</p><h2>Hagamos que<br><em>funcione.</em></h2><a class="contact-email" href="mailto:{{ site.email }}">{{ site.email }} <span>↗</span></a><div class="contact-links"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></section>
     </main>
     <footer class="site-footer section-shell"><span>© {{ 'now' | date: '%Y' }} Franco Sergio Pereyra</span><span>Portfolio personal</span><a href="#">Volver arriba ↑</a></footer>
   </body>
