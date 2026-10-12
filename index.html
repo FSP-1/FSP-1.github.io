@@ -1,0 +1,51 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <title>{{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Inicio"><span class="brand-mark">FSP</span><span>Franco Sergio Pereyra</span></a>
+      <nav aria-label="Navegación principal"><a href="#sobre-mi">Sobre mí</a><a href="#especialidades">Especialidades</a><a href="#trayectoria">Trayectoria</a><a class="nav-cta" href="#contacto">Hablemos <span>↗</span></a></nav>
+    </header>
+    <main>
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> Disponible para nuevos desafíos</p>
+          <h1>Conecto personas,<br><em>sistemas</em> y soluciones.</h1>
+          <p class="hero-intro">Ingeniero Informático orientado a construir infraestructuras sólidas, automatizar operaciones y convertir la tecnología en una herramienta clara para el negocio.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#contacto">Contactarme <span>↗</span></a><a class="button button-ghost" href="#trayectoria">Conocer mi recorrido <span>↓</span></a></div>
+        </div>
+        <div class="hero-aside"><div class="portrait"><div class="portrait-grid"></div><span class="portrait-initials">FSP</span><span class="portrait-caption">INGENIERO<br>INFORMÁTICO</span></div><div class="hero-note"><span>01</span><p>De la infraestructura<br>al impacto.</p></div></div>
+      </section>
+      <section id="sobre-mi" class="about section-shell split-section">
+        <p class="section-index">01 / PERFIL</p>
+        <div class="section-content"><h2>La tecnología funciona mejor cuando las personas pueden confiar en ella.</h2><p>Soy Ingeniero Informático por la Universidad de Almería y Técnico Superior en Administración de Sistemas Informáticos en Red. Me especializo en entender sistemas complejos, hacerlos más seguros y mantenerlos disponibles.</p><p>Mi experiencia combina administración de entornos Linux y Windows Server, redes, virtualización, almacenamiento y servicios cloud. Me gusta trabajar con criterio, documentar lo que construyo y dejar cada entorno mejor de lo que lo encontré.</p><a class="text-link" href="mailto:{{ site.email }}">Escribime para conocernos <span>↗</span></a></div>
+      </section>
+      <section id="especialidades" class="expertise section-shell">
+        <div class="section-heading"><p class="section-index">02 / LO QUE HAGO</p><h2>Especialidades</h2></div>
+        <div class="skill-grid">
+          <article class="skill-card"><span class="skill-number">01</span><h3>Infraestructura<br>& sistemas</h3><p>Diseño, administración y mantenimiento de entornos Linux, Debian y Windows Server.</p><span class="skill-arrow">↗</span></article>
+          <article class="skill-card"><span class="skill-number">02</span><h3>Redes &<br>virtualización</h3><p>Redes fiables, servicios virtualizados con KVM y soluciones de almacenamiento NAS.</p><span class="skill-arrow">↗</span></article>
+          <article class="skill-card"><span class="skill-number">03</span><h3>Cloud &<br>automatización</h3><p>Despliegue de servicios cloud, scripting y automatización para operaciones eficientes.</p><span class="skill-arrow">↗</span></article>
+        </div>
+      </section>
+      <section id="trayectoria" class="journey section-shell split-section">
+        <p class="section-index">03 / RECORRIDO</p>
+        <div class="section-content"><h2>Aprender, resolver y seguir avanzando.</h2><div class="timeline"><div class="timeline-item"><span>FORMACIÓN</span><div><h3>Ingeniería Informática</h3><p>Universidad de Almería</p></div></div><div class="timeline-item"><span>FORMACIÓN</span><div><h3>Administración de Sistemas Informáticos en Red</h3><p>Formación profesional superior · ASIR</p></div></div><div class="timeline-item"><span>ENFOQUE</span><div><h3>Sistemas, infraestructura y operaciones</h3><p>Linux · Windows Server · Redes · Virtualización · NAS · Cloud</p></div></div></div></div>
+      </section>
+      <section id="contacto" class="contact section-shell"><p class="section-index">04 / CONTACTO</p><div class="contact-content"><p class="eyebrow">¿Tenés un desafío en mente?</p><h2>Hagamos que<br><em>funcione.</em></h2><a class="contact-email" href="mailto:{{ site.email }}">{{ site.email }} <span>↗</span></a><div class="contact-links"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></section>
+    </main>
+    <footer class="site-footer section-shell"><span>© {{ 'now' | date: '%Y' }} Franco Sergio Pereyra</span><span>Portfolio personal</span><a href="#">Volver arriba ↑</a></footer>
+  </body>
+</html>

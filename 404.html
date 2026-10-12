@@ -1,49 +1,20 @@
 ---
+layout: null
 permalink: /404.html
-layout: default
 ---
-
-<style> 
-
-  #b{
-      margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-  }
-  #a{
-    width: 500px;
-    height: 100px;
-    transition: width 2s, height 2s, transform 2s;
-    margin: center;
-    border: 1px solid blue;
-  }
-  #a:hover {
-  width: 500px;
-    height: 300px;
-    transform: rotate(180deg)
-  }
-  
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-  <h1>404</h1>
-  
-  <p>No existe la pagina que estas buscando</p>
-  <p>Pero disfruta esto:</p>
-  
-  <div id="b">
-  <div id="a">
-  <div id="a">
-  <div id="a">
-  <div id="a">
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página no encontrada | Franco Sergio Pereyra</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <main class="section-shell" style="padding-top:18vh">
+      <p class="eyebrow">Error 404</p>
+      <h1>Esta página<br><em>no existe.</em></h1>
+      <a class="button button-primary" href="{{ '/' | relative_url }}">Volver al portfolio <span>↗</span></a>
+    </main>
+  </body>
+</html>
