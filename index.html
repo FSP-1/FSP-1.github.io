@@ -16,7 +16,7 @@ layout: null
   <body>
     <header class="site-header">
       <a class="brand" href="{{ '/' | relative_url }}" aria-label="Inicio"><span class="brand-mark">FSP</span><span>Franco Sergio Pereyra</span></a>
-      <nav aria-label="Navegación principal"><a href="#sobre-mi">Sobre mí</a><a href="#especialidades">Especialidades</a><a href="#proyectos">Proyectos</a><a class="nav-cta" href="#contacto">Hablemos <span>↗</span></a></nav>
+      <nav aria-label="Navegación principal"><a href="#sobre-mi">Sobre mí</a><a href="#servicios">Servicios</a><a href="#proyectos">Proyectos</a><a class="nav-cta" href="#contacto">Hablemos <span>↗</span></a></nav>
     </header>
     <main>
       <section class="hero section-shell">
@@ -40,8 +40,20 @@ layout: null
           <article class="skill-card"><span class="skill-number">03</span><h3>Cloud &<br>automatización</h3><p>Despliegue de servicios cloud, scripting y automatización para operaciones eficientes.</p><span class="skill-arrow">↗</span></article>
         </div>
       </section>
+      <section id="servicios" class="services section-shell">
+        <div class="section-heading"><p class="section-index">03 / SERVICIOS</p><h2>Soluciones para tu próximo proyecto.</h2></div>
+        <p class="services-intro">Servicios freelance para crear, desplegar y mantener soluciones web e infraestructuras fiables, desde el desarrollo hasta la administración del sistema.</p>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-number">01</span><h3>Desarrollo web<br>full stack</h3><p>Aplicaciones modernas con Angular o React en el frontend y Spring Boot en el backend, conectadas mediante APIs REST.</p><div class="service-tags"><span>Angular</span><span>React</span><span>Spring Boot</span><span>REST</span></div></article>
+          <article class="service-card"><span class="service-number">02</span><h3>Docker, seguridad<br>y calidad</h3><p>Contenedorización y despliegues reproducibles con Docker, aplicando buenas prácticas de seguridad y criterios de calidad alineados con la familia ISO/IEC 25000.</p><div class="service-tags"><span>Docker</span><span>Docker Compose</span><span>Hardening</span><span>ISO/IEC 25000</span></div></article>
+          <article class="service-card"><span class="service-number">03</span><h3>Despliegue web<br>y servidores</h3><p>Configuración de servidores web y aplicaciones con Nginx o Apache, incluyendo HTTPS, dominios, proxy inverso y puesta en producción.</p><div class="service-tags"><span>Nginx</span><span>Apache</span><span>HTTPS</span><span>Linux</span></div></article>
+          <article class="service-card"><span class="service-number">04</span><h3>Sistemas, redes<br>y cloud</h3><p>Instalación y configuración de equipos Windows o Linux, máquinas virtuales y recursos cloud en AWS y Azure.</p><div class="service-tags"><span>Windows</span><span>Linux</span><span>AWS</span><span>Azure</span><span>Virtualización</span></div></article>
+          <article class="service-card"><span class="service-number">05</span><h3>Servicios de<br>infraestructura</h3><p>Creación y administración de servicios DNS, HTTP, FTP y otros componentes esenciales para una infraestructura conectada y operativa.</p><div class="service-tags"><span>DNS</span><span>HTTP</span><span>FTP</span><span>Administración</span></div></article>
+          <article class="service-card service-card-highlight"><span class="service-number">06</span><h3>Diagnóstico y<br>mantenimiento</h3><p>Revisión de entornos, resolución de incidencias, optimización y documentación para que tu sistema sea más estable y fácil de mantener.</p><a class="service-link" href="#contacto">Consultar servicio <span>↗</span></a></article>
+        </div>
+      </section>
       <section id="proyectos" class="projects section-shell">
-        <div class="section-heading"><p class="section-index">03 / PROYECTOS</p><h2>Proyectos técnicos</h2></div>
+        <div class="section-heading"><p class="section-index">04 / PROYECTOS</p><h2>Proyectos técnicos</h2></div>
         <div class="project-list">
           <article class="project-card">
             <div class="project-meta"><span>01</span><span>PROYECTO ASIR</span></div>
@@ -61,10 +73,10 @@ layout: null
         </div>
       </section>
       <section id="trayectoria" class="journey section-shell split-section">
-        <p class="section-index">04 / RECORRIDO</p>
+        <p class="section-index">05 / RECORRIDO</p>
         <div class="section-content"><h2>Aprender, resolver y seguir avanzando.</h2><div class="timeline"><div class="timeline-item"><span>FORMACIÓN</span><div><h3>Ingeniería Informática</h3><p>Universidad de Almería</p></div></div><div class="timeline-item"><span>FORMACIÓN</span><div><h3>Administración de Sistemas Informáticos en Red</h3><p>Formación profesional superior · ASIR</p></div></div><div class="timeline-item"><span>ENFOQUE</span><div><h3>Sistemas, infraestructura y operaciones</h3><p>Linux · Windows Server · Redes · Virtualización · NAS · Cloud</p></div></div></div></div>
       </section>
-      <section id="contacto" class="contact section-shell"><p class="section-index">05 / CONTACTO</p><div class="contact-content"><p class="eyebrow">¿Tenés un desafío en mente?</p><h2>Hagamos que<br><em>funcione.</em></h2><div class="contact-details"><a class="contact-email" href="mailto:{{ site.email }}">{{ site.email }} <span>↗</span></a><a class="contact-phone" href="tel:+34635159254">+34 635 15 92 54 <span>↗</span></a></div><div class="contact-links"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noreferrer">GitHub ↗</a></div><div class="download-links"><p>Documentación profesional</p><a href="{{ '/assets/documents/Franco-Sergio-Pereyra-CV.pdf' | relative_url }}" download>Descargar currículum <span>↓</span></a><a href="{{ '/assets/documents/Franco-Sergio-Pereyra-Carta-de-presentacion.pdf' | relative_url }}" download>Descargar carta de presentación <span>↓</span></a></div></div></section>
+      <section id="contacto" class="contact section-shell"><p class="section-index">06 / CONTACTO</p><div class="contact-content"><p class="eyebrow">¿Tenés un desafío en mente?</p><h2>Hagamos que<br><em>funcione.</em></h2><div class="contact-details"><a class="contact-email" href="mailto:{{ site.email }}">{{ site.email }} <span>↗</span></a><a class="contact-phone" href="tel:+34635159254">+34 635 15 92 54 <span>↗</span></a></div><div class="contact-links"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noreferrer">GitHub ↗</a></div><div class="download-links"><p>Documentación profesional</p><a href="{{ '/assets/documents/Franco-Sergio-Pereyra-CV.pdf' | relative_url }}" download>Descargar currículum <span>↓</span></a><a href="{{ '/assets/documents/Franco-Sergio-Pereyra-Carta-de-presentacion.pdf' | relative_url }}" download>Descargar carta de presentación <span>↓</span></a></div></div></section>
     </main>
     <footer class="site-footer section-shell"><span>© {{ 'now' | date: '%Y' }} Franco Sergio Pereyra</span><span>Portfolio personal</span><a href="#">Volver arriba ↑</a></footer>
   </body>
